@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 
 
 app.get('/', (req, res) => {
-
+    res.send("Up and running Face-Recognition-API");
 });
 
 app.post('/signin',
